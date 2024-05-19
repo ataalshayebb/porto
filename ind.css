@@ -214,45 +214,48 @@ width: max-content;
 .card1{
     margin: auto;
     transform-style: preserve-3d ;
-    transition: all 1.7s ease-in-out;
+    transition: all 2.5s ease-in-out;
     /* background-color: #ffffff; */
     width: max-content;
 }
 .card2{
     margin: auto;
     transform-style: preserve-3d ;
-    transition: all 1.7s ease-in-out;
+    transition: all 2.5s ease-in-out;
     /* background-color: #ffffff; */
     width: max-content;
 }
 .card3{
     margin: auto;
     transform-style: preserve-3d ;
-    transition: all 1.7s ease-in-out;
+    transition: all 2.5s ease-in-out;
     /* background-color: #ffffff; */
     width: max-content;
 }
  .card4{
     margin: auto;
     transform-style: preserve-3d ;
-    transition: all 1.7s ease-in-out;
+    transition: all 2.5s ease-in-out;
     /* background-color: #ffffff; */
     width: max-content;
 }
  .card5{
     margin: auto;
     transform-style: preserve-3d ;
-    transition: all 1.7s ease-in-out;
+    transition: all 2.5s ease-in-out;
     /* background-color: #ffffff; */
     width: max-content;
 }
  .card6{
     margin: auto;  
     transform-style: preserve-3d ;
-    transition: all 1.7s ease-in-out;
+    transition: all 2.5s ease-in-out;
     /* background-color: #ffffff; */
     width: max-content;
 }
+
+.cardlink{color: #95389E;}
+
 .row img{padding: 0.625rem;}
 
 @media (min-width:600px)
