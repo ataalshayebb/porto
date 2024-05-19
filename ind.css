@@ -1,0 +1,277 @@
+html { scroll-behavior: smooth;}
+
+body{
+    height: fit-content;
+    width: fit-content;
+    background-color: black !important;
+}
+
+.navbar{
+    background: black !important;
+}
+
+.parent{ display: grid;
+    grid-template-columns: repeat(24, 0.25fr);
+  grid-template-rows: repeat(24, 0.25fr);
+  width: fit-content;
+}
+
+
+ .navbar-nav .nav-item :hover{
+    font-weight: 600;
+    color: #95389E;
+    transform: scale(1.15);
+  }
+  
+  .sm-icons .nav-link :hover {
+  background-attachment: fixed;color:#95389E;
+  transform: scale(1.25);
+  }
+  
+ul .btn {
+   margin-left: 17.5rem;
+    background-color: white;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: black;
+    padding: 0.625rem 1.25rem;
+    height: min-content;
+    width: min-content;
+    border-radius: 312.5rem;
+    transition: all 0.3s;
+}
+
+ul .btn:hover{
+   background-color: white;
+    transform: scale(1.15);
+}
+.abtme{
+   text-align:left;
+    grid-row: 1/3;
+    grid-column: 3/-1;
+    transition: all 0.3s;
+   margin-top:4.375rem;
+}
+
+.abtme :hover{
+    /* transform: scale(1.15); */
+    transition: all 0.3s;
+ }
+
+/* @keyframes cursor {
+    50%{ border-color: transparent;}
+    100%{opacity: 0;}
+} */
+
+@keyframes typing {
+    from{ width: 0rem;}
+    to{width: 70.313rem;}
+}
+
+.abtme .one {
+width: fit-content;
+/* border-right: 5px white solid; */
+color: rgb(87, 91, 95);
+font-size: 1.7rem;
+overflow: hidden;
+white-space: nowrap;
+font-weight: 400;
+animation:
+typing 3s 1s steps(63) both ;
+
+}
+.abtme .two {
+    width: fit-content;
+    /* border-right: 5px white solid; */
+    color: rgb(87, 91, 95);
+    font-size: 1.7rem;
+    overflow: hidden;
+    white-space: nowrap;
+    font-weight: 400;
+    animation:
+    typing 3s 3.4s steps(79) both ;
+}
+.abtme .three {
+    width: fit-content;
+    /* border-right: 5px white solid; */
+    color: rgb(87, 91, 95);
+    font-size: 1.7rem;
+    overflow: hidden;
+    white-space: nowrap;
+    font-weight: 400;
+    animation:
+    typing 3s 6s steps(63) both ;
+}
+.abtme .four {
+    width: fit-content;
+    /* border-right: 5px white solid; */
+    color: rgb(87, 91, 95);
+    font-size: 1.7rem;
+    overflow: hidden;
+    white-space: nowrap;
+    font-weight: 400;
+    animation:
+    typing 3s 8s steps(55) both ;
+}
+.abtme .five{
+    width: fit-content;
+    /* border-right: 5px white solid; */
+    color: rgb(87, 91, 95);
+    font-size: 1.7rem;
+    overflow: hidden;
+    white-space: nowrap;
+    font-weight: 400;
+    animation:
+    typing 3s 10s steps(60) both ;
+}
+.abtme h4{  
+    color: #95389E;
+}
+.abtme h1{
+    color: white;
+    font-size: 6rem;
+    font-weight: bolder;
+}
+
+
+
+  .frontend{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    grid-row:6/9;
+    grid-column: 1/-1 ;
+  
+  }
+
+ .backend{
+    display: flex;
+    flex-direction: row;
+     justify-content: space-around;
+     grid-row:9/12;
+     grid-column: 1/-1 ;
+}
+
+
+.skillscard :hover{
+    transform: scale(1.25);
+    transition: all 0.3s ease-in-out;
+ }
+
+ .skillscard{
+/* background-color: white; */
+height: max-content;
+transition: all 0.3s ease-in-out;
+width: max-content;
+}
+.skillscard img {padding: 0.625rem;
+}
+.skillscard p{text-align: center;}
+
+.skillstitle{color: white;}
+
+.card1:hover{ transform: rotateY(-180deg)}
+.card2:hover{ transform: rotateY(-180deg)}
+.card3:hover{ transform: rotateY(-180deg)}
+.card4:hover{ transform: rotateY(-180deg)}
+.card5:hover{ transform: rotateY(-180deg)}
+.card6:hover{ transform: rotateY(-180deg)}
+
+.frontcard{
+    backface-visibility: hidden;
+    text-align: center;
+    /* background-color: #000000; */
+    color: white; 
+}
+.backcard{ 
+    backface-visibility: hidden;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    transform: rotateY(180deg);
+    font: black;
+   
+}
+.row{
+    display: flex;
+    flex-direction: row;  
+    grid-row:14/20;
+    grid-column: 1/-1 ;
+}
+
+.row1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: auto;
+}
+.row2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: auto;
+}
+.card1{
+    margin: auto;
+    transform-style: preserve-3d ;
+    transition: all 1.7s ease-in-out;
+    /* background-color: #ffffff; */
+    width: max-content;
+}
+.card2{
+    margin: auto;
+    transform-style: preserve-3d ;
+    transition: all 1.7s ease-in-out;
+    /* background-color: #ffffff; */
+    width: max-content;
+}
+.card3{
+    margin: auto;
+    transform-style: preserve-3d ;
+    transition: all 1.7s ease-in-out;
+    /* background-color: #ffffff; */
+    width: max-content;
+}
+ .card4{
+    margin: auto;
+    transform-style: preserve-3d ;
+    transition: all 1.7s ease-in-out;
+    /* background-color: #ffffff; */
+    width: max-content;
+}
+ .card5{
+    margin: auto;
+    transform-style: preserve-3d ;
+    transition: all 1.7s ease-in-out;
+    /* background-color: #ffffff; */
+    width: max-content;
+}
+ .card6{
+    margin: auto;  
+    transform-style: preserve-3d ;
+    transition: all 1.7s ease-in-out;
+    /* background-color: #ffffff; */
+    width: max-content;
+}
+.row img{padding: 0.625rem;}
+
+@media (min-width:600px)
+{
+.wrapper{width: 100%;}
+}
+@media (min-width:601px)
+{
+.wrapper{width: 100%;}
+}
+@media (min-width:768px)
+{
+.wrapper{width: 100%;}
+}
+@media (min-width:992px)
+{
+.wrapper{width: 100%;}
+}
+@media (min-width:1000px)
+{
+.wrapper{width: 100%;}
+}
