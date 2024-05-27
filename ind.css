@@ -294,7 +294,7 @@ width: max-content;
     flex-direction: row;
     display: none;
     justify-content: space-evenly;
-    margin: auto;
+    /* margin: auto; */
 }
 .row2{
     display: flex;
